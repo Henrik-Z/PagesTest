@@ -24,26 +24,26 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
   <nav class="navbar navbar-expand-sm fixed-top navbar">
     <div class="container">
-      <router-link class="navbar-brand" to="/"><img alt="ProAgile logotyp" class="img-responsive" src="/assets/logo.png"></router-link>
+      <router-link class="navbar-brand" to="/"><img alt="ProAgile logotyp" class="img-responsive" src="https://proagile.se/assets/logo.png"></router-link>
       <button type="button" name="toggleMenu" class="navbar-toggler hidden-sm-up pull-xs-right" @click="toggleMenu" aria-label="Toggle menu">
         <span class="navbar-toggler-icon"></span>
         <span class="sr-only">Öppna meny</span>
       </button>
       <ul :class="isOpen">
         <li class="nav-item">
-          <router-link class="nav-link" to="/den-agila-resan" v-on:click.native="toggleMenu()">Den agila resan</router-link>
+          <router-link class="nav-link" to="https://proagile.se/den-agila-resan" v-on:click.native="toggleMenu()">Den agila resan</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/vara-kurser" v-on:click.native="toggleMenu()">Våra kurser</router-link>
+          <router-link class="nav-link" to="https://proagile.se/vara-kurser" v-on:click.native="toggleMenu()">Våra kurser</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/lar-mer" v-on:click.native="toggleMenu()">Lär dig mer</router-link>
+          <router-link class="nav-link" to="https://proagile.se/lar-mer" v-on:click.native="toggleMenu()">Lär dig mer</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/blog" v-on:click.native="toggleMenu()">Blogg</router-link>
+          <router-link class="nav-link" to="https://proagile.se/blog" v-on:click.native="toggleMenu()">Blogg</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/om-oss" v-on:click.native="toggleMenu()">Om oss</router-link>
+          <router-link class="nav-link" to="https://proagile.se/om-oss" v-on:click.native="toggleMenu()">Om oss</router-link>
         </li>
       </ul>
     </div>
