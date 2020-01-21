@@ -2,3 +2,5 @@
 ## Test
 This is a GitHub Pages test
 __Bold__ _italic_
+- list
+- item
