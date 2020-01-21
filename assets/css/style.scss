@@ -43,3 +43,75 @@ h2 {
   margin-top: 4px;
   margin-bottom: 0px;
 }
+
+.navbar {
+  background: rgba(255,255,255,0.9);
+  border-color: #e7e7e7;
+  border-width: 0 0 1px;
+  border-style: solid;
+  font-family: Futura, "Trebuchet MS", sans-serif;
+
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-left: -30px;
+  margin-top: 7px;
+  margin-bottom: -7px;
+}
+
+.navbar-brand img {
+  margin-left: 10px;
+}
+
+.navbar-toggler {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.navbar-toggler-icon {
+  padding: 5px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand > img {
+  height: 73px;
+  margin-top: -15px;
+}
+
+.navbar-nav {
+  margin-top: 5px;
+}
+
+.navbar-nav > li {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  .ml-auto {
+    margin-left: 0!important;
+  }
+}
+
+.nav-link {
+  line-height: 20px;
+  color: #666;
+  padding: 10px 15px!important;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color: #28942C;
+  background-color: transparent;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  text-decoration: underline;
+  color: #28942C;
+}
