@@ -1,8 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
 # Heading
 ## Second heading
 - list
